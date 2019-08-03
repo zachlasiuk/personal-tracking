@@ -1,6 +1,20 @@
-# This will prevent your local modules and debug logs 
-# from being copied onto your Docker image 
-# and possibly overwriting modules installed within your image.
+# Git
+.git
+.gitignore
 
+# Build step outputs
+build
+.happypack
+
+# Docker configuration
+Dockerfile
+Makefile
+docker-compose.yml
+
+# NPM dependencies
 node_modules
-npm-debug.log
+
+# Other
+.editorconfig
+.ebextensions
+logging.conf
