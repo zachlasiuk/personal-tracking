@@ -1,0 +1,25 @@
+{
+  "name": "Zach",
+  "version": "1.0.0",
+  "description": "Personal Tracking app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Zach Lasiuk",
+  "license": "MIT",
+  "homepage": "https://github.com/thomasyimgit/express-socket.io-boilerplate#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "formidable": "^1.2.1",
+    "json2csv": "^4.5.2",
+    "pkg": "^4.4.0",
+    "shelljs": "^0.8.3",
+    "socket.io": "^2.2.0",
+    "xml2js": "^0.4.19"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "assets": "public/**/*"
+  }
+}
