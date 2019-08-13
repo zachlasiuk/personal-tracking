@@ -6,18 +6,15 @@ app.get('/', function(req, res){
  	res.sendFile(__dirname + '/index.html');
 });
 
+app.get('/overview', function(req, res){     
+  res.sendFile(path.join(__dirname,  '/overview.html'));   
+});
+
 io.on('connection', function(socket){
 	// Basic functionality
 	console.log('a user connected');
 	socket.on('disconnect', function(){
 		console.log('user disconnected');
-	});
-
-
-
-
-	socket.on('custom-event', function(value){
-		io.emit('custom-event', value);
 	});
 
 
