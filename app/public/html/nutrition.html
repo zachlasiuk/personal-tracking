@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Personal Tracker</title>
+    <title>Nutrition</title>
 
   <!-- Socket.io -->
     <script src="/socket.io/socket.io.js"></script>
@@ -24,49 +24,29 @@
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
 
   <!-- My files -->
-    <script src="js/overview.js"></script>
-    <script src="js/shared.js"></script>
+    <script src="/js/overview.js"></script>
+    <script src="/js/shared.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/shared.css">
+
   </head>
 
 
 
-  <body onload="onLoad()">
-
-<!-- Top Introduction Section -->
-  <div class="header-div">
-      <h1 class="header-div_title">Home Page</h1>
-  </div>
-
-<!-- Fixed Nav Bar -->
-  <div id="navbar-div"></div>
-
-
-
-
-
-
-    <p>Personal Tracker</p>
+  <body>
+    <p>Nutrition</p>
   </body>
 
 
 
   
   <script>
-  // Script to update page on load/reload
-  function onLoad() {
-      navbarInit(); // Shared script across pages to update nav bar     
-  }
-
-
     $(function () {
       var socket = io();
       
-      //socket.emit('custom-event', value);
-
-
-      //socket.on('custom-event', function(value){ 
-      // });
+      socket.emit('custom-event', value);
+      socket.on('custom-event', function(value){
+         
+       });
     });
   </script>
 

@@ -1,0 +1,90 @@
+
+/*******************************************/
+/*	 Masthead & nav-bar 		 		   */
+/*******************************************/
+
+/* Masthead */
+/************/
+.shared-masthead-div {
+	/* colors */
+	background-color: #11809f;  /* arm-web-safe-blue */
+
+	/* spacing */
+	width: 100%;
+    padding-bottom:10px;
+
+}
+
+.shared-masthead-div-title {
+	/* colors */
+	color: white;
+
+	/* spacing */
+	width:100%;
+	text-align: center;
+    padding: .5em 0;  	/* removed as it screws up formatting */
+
+	/* typography */
+    font-size: 3.625rem;
+    letter-spacing: -.5px;
+    line-height: 1;
+	font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-style: normal;
+    font-weight: 300;
+}
+
+
+/* Navbar */
+/**********/
+.shared-nav-bar {
+	/* colors */
+	background-color: #EEEDED;
+
+	/* spacing */
+	padding-top: 0px;
+    padding-left: 10px;
+    padding-bottom:0px;
+}
+
+.nav-item {
+    margin-right:30px;
+}
+
+.shared-nav-bar a:hover {
+  border-bottom: 3px solid #107F9F;
+}
+.shared-nav-bar a.active {
+  border-bottom: 3px solid #107F9F;
+}
+
+.arm-nav-title {
+	/* colors */
+    color: #000000;
+
+	/* font */
+    font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+.shared-h2 {
+	/* spacing */
+    margin: .5em 0;
+    text-align: center;
+    width:100%;
+
+	/* typography */
+    font-size: 2.75rem;
+    line-height: 1;
+	font-family: 'Lato', 'Helvetica', 'Arial', 'sans-serif';
+    font-style: normal;
+    font-weight: 300;
+}
