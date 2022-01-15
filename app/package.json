@@ -14,7 +14,7 @@
     "formidable": "^1.2.1",
     "json2csv": "^4.5.2",
     "pkg": "^4.4.0",
-    "shelljs": "^0.8.3",
+    "shelljs": "^0.8.5",
     "socket.io": "^2.2.0",
     "xml2js": "^0.4.19"
   },
